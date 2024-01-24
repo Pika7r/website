@@ -1,11 +1,38 @@
-table{
-    border: 3px solid rgb(7, 64, 253);
-    background-color: rgb(18, 211, 143);
+table {
+    border: 1px;
+    border-collapse: collapse;
+    border-spacing: 20px;
 }
-th{
-    border: 2px solid rgb(0, 0, 0);
-    font-family: 'Times New Roman', Times, serif;
+
+th,
+td {
+    border: 1px solid rgb(255, 0, 0);
+    padding: 3px;
 }
-td{
-    border:  1px solid black;
+
+.ok {
+    border: 1px solid black;
+    text-align: center;
+}
+
+#table {
+    color: rgba(248, 70, 0, 0.733);
+}
+
+#video {
+    color: rgb(101, 10, 237);
+}
+
+#audio {
+    color: rgb(0, 100, 15);
+}
+
+#image {
+    color: rgb(183, 6, 97);
+}
+
+.box .caption {
+    text-align: center;
+    background-color: brown;
+    color: white;
 }
