@@ -36,3 +36,9 @@ td {
     background-color: brown;
     color: white;
 }
+.flag{
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+    font-size: 15px;
+}

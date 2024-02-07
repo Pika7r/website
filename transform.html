@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRANSFORM</title>
+    <style>
+        html {
+            background-color:wheat;
+        }
+
+        .container {
+            border: 2px solid black;
+            height: 400px;
+            width: 287px;
+            padding: 20px 0px 120px 250px;
+            background-color: aqua;
+            transform: scale(80%);
+        }
+
+        .box {
+            border: 2px solid rgb(94, 91, 91);
+            width: 160px;
+            border-left: 0px;
+            transform-origin: 0% 0%;
+            transform: skewY(20deg);
+        }
+
+        .ok1 {
+            background-color: rgb(250, 170, 40);
+            display: flex;
+            height: 30px;
+            width: 160px;
+        }
+
+        .ok2 {
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            height: 30px;
+            width: 160px;
+            justify-content: center;
+        }
+
+        .ok3 {
+            background-color: rgb(13, 254, 9);
+            display: flex;
+            height: 30px;
+            width: 160px;
+        }
+
+        .circle {
+            width: 30px;
+            height: 30px;
+            background-color: rgb(183, 179, 179);
+            border-radius: 100px;
+        }
+
+        .stand {
+            height: 400px;
+            width: 15px;
+            background-color: rgb(255, 255, 255);
+            border: 2px solid rgb(94, 91, 91);
+            border-radius: 100px 100px 20px 20px;
+        }
+
+        .ground1 {
+            background-color: rgb(255, 131, 23);
+            height: 30px;
+            width: 150px;
+            border-top: 1px solid black;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            border-radius: 7px;
+
+            position: relative;
+            right: 62px;
+        }
+
+        .ground2 {
+            background-color: rgb(225, 114, 17);
+            height: 30px;
+            width: 200px;
+            border-top: 1px solid black;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            border-radius: 7px;
+            position: relative;
+            right: 88px;
+        }
+
+        .ground3 {
+            background-color: rgb(201, 102, 15);
+            height: 30px;
+            width: 287px;
+            border: 1px solid black;
+            border-radius: 7px;
+            position: relative;
+            right: 130px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="stand">
+            <div class="box">
+                <div class="ok1"></div>
+                <div class="ok2">
+                    <div class="circle"></div>
+                </div>
+                <div class="ok3"></div>
+            </div>
+        </div>
+        <div class="ground1"></div>
+        <div class="ground2"></div>
+        <div class="ground3"></div>
+    </div>
+
+
+</body>
+
+</html>
