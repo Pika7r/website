@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: darkmagenta;
+    height: 40px;
+    position: sticky;
+    top: 0px;
+}
+
+.header-ul {
+    display: flex;
+    list-style: none;
+    color: white;
+}
+
+li {
+    margin: 12px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+main {
+    background-color: rgb(0, 0, 0);
+    /* margin: 12px 12px; */
+    padding: 12px;
+    display: flex;
+}
+
+section {
+    width: 270px;
+    height: 80vh;
+    background-color: aqua;
+    /* display: inline-block; */
+    margin: 0px;
+}
+
+.content {
+    background-color: bisque;
+    width: 690px;
+    height: 80vh;
+    /* display: inline-block; */
+    margin: auto;
+}
+
+p {
+    padding: 10px;
+}
+
+.practice{
+    color: orange;
+    text-decoration: none;
+}
+
+
+footer {
+    /* width: 100VW; */
+    height: auto;
+    background-color: darkmagenta;
+    
+}
+
+.section-footer {
+    display: flex;
+    justify-content: center;
+}
+
+div ul {
+    color: rgb(180, 171, 255);
+    list-style: none;
+    font-weight: bold;
+    font-size: 11px;
+    position: sticky;
+}
+
+@media screen and (min-width:500px) {
+    nav {
+        width: 80vw;
+    }
+}
