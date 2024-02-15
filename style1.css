@@ -1,10 +1,13 @@
+html{
+    scroll-behavior: smooth;
+}
 * {
     margin: 0px;
     padding: 0px;
 }
 
 header {
-    background-color: darkmagenta;
+    background-color: rgb(0, 0, 0);
     height: 40px;
     position: sticky;
     top: 0px;
@@ -23,19 +26,21 @@ li {
 nav {
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
 }
 
 main {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(224, 224, 224);
     /* margin: 12px 12px; */
     padding: 12px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 section {
     width: 270px;
     height: 80vh;
-    background-color: aqua;
+    background-color: rgb(115, 116, 116);
     /* display: inline-block; */
     margin: 0px;
 }
@@ -61,7 +66,7 @@ p {
 footer {
     /* width: 100VW; */
     height: auto;
-    background-color: darkmagenta;
+    background-color: black;
     
 }
 
