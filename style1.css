@@ -1,14 +1,16 @@
-@media only screen and (max-width:665px){
-    .section{
+@media only screen and (max-width:665px) {
+    .section {
         flex-direction: column;
     }
+
     /* .section2{
         flex-direction: column-reverse;
     } */
-    .content{
+    .content {
         width: 20px;
     }
 }
+
 :root {
     --header: #59981A;
     --main: #3D550C;
@@ -20,10 +22,24 @@
 :root {
     --header-ul-hover: rgb(52, 86, 17);
 }
-html{
+
+html {
     overflow: hidden auto;
     scrollbar-color: red;
 }
+
+::-webkit-scrollbar{
+    background-color: #59981A;
+}
+::-webkit-scrollbar-track {
+    background-color: rgba(255, 255, 255, 0.999);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: green;
+    border-radius: 10px;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -201,6 +217,7 @@ p {
     /* flex-direction: row-reverse; */
     margin: 10px;
 }
+
 /* .section2 img{
     margin-left: 10px;
 } */
