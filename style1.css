@@ -51,7 +51,7 @@ header {
     /* background: linear-gradient(45deg, red, blue, green); */
     background-color: var(--header);
     top: 0px;
-    /* padding: 12px 134px; */
+    padding: 12px 0px;
     display: grid;
     /* flex-direction: column; */
     /* align-content: space-between; */
