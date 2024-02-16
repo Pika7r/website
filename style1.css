@@ -115,7 +115,17 @@ main {
     padding-bottom: 20px;
 }
 
-
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    /* width: 80%; */
+    padding-bottom: 10px;
+    background-color: var(--header);
+    /* position: sticky;
+    top: 0px; */
+}
 
 .section-img {
     margin: 0px 10px 15px 0px;
