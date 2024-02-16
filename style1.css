@@ -1,3 +1,14 @@
+@media only screen and (max-width:665px){
+    .section{
+        flex-direction: column;
+    }
+    /* .section2{
+        flex-direction: column-reverse;
+    } */
+    .content{
+        width: 20px;
+    }
+}
 :root {
     --header: #59981A;
     --main: #3D550C;
@@ -20,7 +31,7 @@ header {
     /* background: linear-gradient(45deg, red, blue, green); */
     background-color: var(--header);
     top: 0px;
-    padding: 0px 134px;
+    padding: 12px 134px;
 }
 
 .header-ul li:hover {
@@ -54,7 +65,7 @@ header img {
     height: 60px;
     border-radius: 100px;
     border: 2px solid white;
-    margin: 5px 0px;
+    /* margin: 5px 0px; */
 }
 
 .header-ul {
@@ -71,7 +82,7 @@ li {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     margin: auto;
@@ -97,7 +108,7 @@ main {
 
 
 .section-img {
-    margin: 0px 10px 5px 0px;
+    margin: 0px 10px 15px 0px;
     width: 270px;
     border-radius: 5px;
     border: 2px solid green;
@@ -106,7 +117,7 @@ main {
 
 .content {
     background-color: var(--content);
-    width: 690px;
+    width: auto;
     margin: auto;
     margin-bottom: 15px;
 }
@@ -184,10 +195,12 @@ p {
 
 .section2 {
     display: flex;
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; */
     margin: 10px;
 }
-
+.section2 img{
+    margin-left: 10px;
+}
 .section {
     display: flex;
     margin: auto;
