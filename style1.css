@@ -28,9 +28,10 @@ html {
     scrollbar-color: red;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     background-color: #59981A;
 }
+
 ::-webkit-scrollbar-track {
     background-color: rgba(255, 255, 255, 0.999);
 }
@@ -64,6 +65,7 @@ header {
     border: none;
     background-color: transparent;
     border: 2px solid rgb(255, 255, 255);
+    color: white;
 }
 
 .search-btn {
@@ -84,7 +86,6 @@ header img {
     height: 60px;
     border-radius: 100px;
     border: 2px solid white;
-    /* margin: 5px 0px; */
 }
 
 .header-ul {
@@ -106,10 +107,6 @@ nav {
     flex-wrap: wrap;
     margin: auto;
     width: 100%;
-}
-
-.logo img {
-    object-fit: cover;
 }
 
 .nav-search {
