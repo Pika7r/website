@@ -20,7 +20,9 @@
 :root {
     --header-ul-hover: rgb(52, 86, 17);
 }
-
+html{
+    overflow: hidden auto;
+}
 * {
     margin: 0px;
     padding: 0px;
