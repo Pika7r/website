@@ -109,12 +109,6 @@ nav {
     width: 100%;
 }
 
-.nav-search {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
 main {
     background-color: var(--main);
     padding: 12px;
