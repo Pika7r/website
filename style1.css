@@ -235,7 +235,7 @@ p {
 }
 
 .contact input {
-    max-width: 100%;
+    /* max-width: 100%; */
     margin: auto;
     /* padding: 10px 40vw 10px 7px; */
     margin-bottom: 5px;
