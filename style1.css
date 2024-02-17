@@ -1,22 +1,19 @@
 @media only screen and (max-width:665px) {
     .section {
         flex-direction: column;
+        align-items: center;
     }
 
-    /* .section2{
-        flex-direction: column-reverse;
-    } */
     .content {
         width: 20px;
     }
 }
-
 :root {
     --header: #59981A;
     --main: #3D550C;
     --content: #81B622;
     --faq: #59981A;
-    --footer: #59981A;
+    --footer: #59981a;
 }
 
 :root {
@@ -44,6 +41,7 @@ html {
 * {
     margin: 0px;
     padding: 0px;
+    font-family: poppins;
 }
 
 header {
@@ -61,25 +59,6 @@ header {
 
 .header-ul li:hover {
     border-bottom: 3px solid var(--header-ul-hover);
-}
-
-
-.search-input {
-    border-radius: 5px;
-    font-size: 18px;
-    border: none;
-    background-color: transparent;
-    border: 2px solid rgb(255, 255, 255);
-    color: white;
-}
-
-.search-btn {
-    border-radius: 5px;
-    box-shadow: inset black;
-    border: 1px solid white;
-    padding: 5px;
-    background-color: #48674f;
-    color: white;
 }
 
 .search-btn:active {
@@ -112,15 +91,16 @@ nav {
     flex-wrap: wrap;
     margin: auto;
     width: 100%;
+    z-index: 999;
 }
 
-main {
-    background-color: var(--main);
-    padding: 12px;
-    padding-bottom: 20px;
-}
+/* main {
+    /* background-color: var(--main); */
+/* padding: 12px; */
+/* padding-bottom: 20px;
+} */
 
-/* .search{ */
+.search {
     /* display: flex;
     align-items: center;
     justify-content: center; */
@@ -131,9 +111,9 @@ main {
     /* width: 80%; */
     /* padding-bottom: 10px; */
     /* background-color: var(--header); */
-    /* position: sticky;
-    top: 0px; */
-/* } */
+    position: sticky;
+    top: 0px;
+}
 
 .section-img {
     margin: 0px 10px 15px 0px;
@@ -148,6 +128,7 @@ main {
     width: auto;
     margin: auto;
     margin-bottom: 15px;
+    border-radius: 5px;
 }
 
 p {
@@ -161,31 +142,33 @@ p {
 }
 
 .faq {
-    width: 60vw;
     margin: auto;
-    margin-top: 20px;
+    background-color: var(--main);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .faq-top {
     text-align: center;
-}
-
-.faq-top p {
+    background-color: var(--main);
     font-size: 20px;
     font-weight: bold;
     color: rgb(255, 255, 255);
+    /* padding-bottom: 30px; */
 }
 
 .faq-answers {
     background-color: var(--faq);
-    margin: 10px 0px;
+    width: 80vw;
+    margin: 10px;
 }
 
 .white {
     color: white;
     background-color: white;
     align-self: center;
-    margin-top: 10px;
 }
 
 .other-links {
@@ -207,7 +190,7 @@ p {
 }
 
 .section-footer ul {
-    color: rgb(180, 171, 255);
+    color: rgb(162, 255, 0);
     list-style: none;
     font-weight: bold;
     font-size: 11px;
@@ -219,6 +202,8 @@ p {
     display: flex;
     flex-direction: column;
     margin: auto;
+    background-color: var(--main);
+    padding: 20px;
 }
 
 .section2 {
@@ -233,4 +218,25 @@ p {
 .section {
     display: flex;
     margin: auto;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(48 70 4);
+    padding: 10px 0px;
+    align-items: center;
+    color: white;
+}
+
+.contact textarea {
+    width: 50%;
+    padding-left: 10px;
+}
+
+.contact input {
+    max-width: 100%;
+    margin: auto;
+    padding: 10px 40vw 10px 7px;
+    margin-bottom: 5px;
 }
