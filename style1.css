@@ -82,7 +82,8 @@ header img {
 }
 
 li {
-    margin: 12px;
+    /* margin: 12px; */
+    padding: 12px;
 }
 
 nav {
