@@ -23,6 +23,7 @@
 html {
     overflow: hidden auto;
     scrollbar-color: red;
+    scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
@@ -90,7 +91,7 @@ nav {
     align-items: center;
     flex-wrap: wrap;
     margin: auto;
-    width: 100%;
+    /* width: 100%; */
     z-index: 999;
 }
 
