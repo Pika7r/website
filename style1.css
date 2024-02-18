@@ -27,7 +27,7 @@ html {
     scroll-behavior: smooth;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     background-color: #59981A;
 }
 
@@ -38,7 +38,7 @@ html {
 ::-webkit-scrollbar-thumb {
     background-color: green;
     border-radius: 10px;
-}
+} */
 
 * {
     margin: 0px;
@@ -48,13 +48,10 @@ html {
 
 header {
     position: sticky;
-    /* background: linear-gradient(45deg, red, blue, green); */
     background-color: var(--header);
     top: 0px;
     padding: 12px 0px;
     display: grid;
-    /* flex-direction: column; */
-    /* align-content: space-between; */
     justify-content: center;
     z-index: 999;
 }
@@ -235,16 +232,12 @@ p {
 .whatsapp-icon-fixed {
     position: fixed;
     bottom: 50%;
-    /* mix-blend-mode: color-burn; */
     left: 3%;
 }
 
 .whatsapp-icon-fixed svg {
     height: 40px;
     width: 40px;
-    /* background-color: aliceblue; */
     color: yellow;
-    z-index: 9999;
     fill: green;
-    /* border-radius: px; */
 }
