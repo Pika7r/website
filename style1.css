@@ -235,13 +235,16 @@ p {
 .whatsapp-icon-fixed {
     position: fixed;
     bottom: 50%;
+    /* mix-blend-mode: color-burn; */
     left: 3%;
 }
 
 .whatsapp-icon-fixed svg {
     height: 40px;
     width: 40px;
-    /* color: green; */
-    /* background-color: green; */
-    /* color: white; */
+    /* background-color: aliceblue; */
+    color: yellow;
+    z-index: 9999;
+    fill: green;
+    /* border-radius: px; */
 }

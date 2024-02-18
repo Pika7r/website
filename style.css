@@ -1,11 +1,16 @@
-table {
+.mainpage{
+    padding: 40px;
+    text-align: center;
+}
+.box {
     border: 1px;
     border-collapse: collapse;
     border-spacing: 20px;
+    margin: auto;
 }
 
-th,
-td {
+.table-heading,
+.table-data {
     border: 1px solid rgb(255, 0, 0);
     padding: 3px;
 }
