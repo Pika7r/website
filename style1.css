@@ -8,7 +8,11 @@
         width: 20px;
     }
 }
-
+@media screen and (max-width: 768px){
+    ::-webkit-scrollbar {
+        -webkit-appearance: none;
+    }
+  }
 :root {
     --header: #59981A;
     --main: #3D550C;
@@ -25,9 +29,9 @@ html {
     scroll-behavior: smooth;
 
 }
-::-webkit-scrollbar{
+/* ::-webkit-scrollbar{
     display: none;
-}
+} */
 
 * {
     margin: 0px;
@@ -195,13 +199,14 @@ p {
 }
 
 .contact textarea {
-    width: 50%;
+    /* width: 50%; */
     padding-left: 10px;
 }
 
 .contact input {
-    margin: auto;
+    /* margin: auto; */
     margin-bottom: 5px;
+    /* width: 50%; */
 }
 
 .social-media h2 {
