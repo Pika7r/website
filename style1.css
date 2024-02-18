@@ -8,6 +8,7 @@
         width: 20px;
     }
 }
+
 :root {
     --header: #59981A;
     --main: #3D550C;
@@ -21,8 +22,8 @@
 }
 
 html {
-    overflow: hidden auto;
-    scrollbar-color: red;
+    /* overflow: hidden auto;
+    scrollbar-color: red; */
     scroll-behavior: smooth;
 }
 
@@ -92,6 +93,7 @@ nav {
     margin: auto;
     z-index: 999;
 }
+
 .search {
     position: sticky;
     top: 0px;
@@ -214,4 +216,32 @@ p {
 .contact input {
     margin: auto;
     margin-bottom: 5px;
+}
+
+.social-media h2 {
+    margin-bottom: 10px;
+}
+
+.follow {
+    color: rgb(21, 58, 1);
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.whatsapp-icon-fixed {
+    position: fixed;
+    bottom: 50%;
+    left: 3%;
+}
+
+.whatsapp-icon-fixed svg {
+    height: 40px;
+    width: 40px;
+    /* color: green; */
+    /* background-color: green; */
+    /* color: white; */
 }
