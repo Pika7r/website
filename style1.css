@@ -205,6 +205,14 @@ p {
 .contact input::placeholder{
     font-size: 12px;
 }
+.contact button{
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #59981a;
+    color: white;
+}
 .social-media h2 {
     margin-bottom: 10px;
 }
