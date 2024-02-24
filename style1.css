@@ -207,46 +207,6 @@ p {
     font-size: 12px;
 }
 
-.ok {
-    padding: 10px 20px;
-    margin-top: 10px;
-    border-radius: 10px;
-    border: none;
-    background-color: #59981a;
-    color: white;
-    position: relative;
-    width: 100px;
-    height: 100px;
-    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
-    /* animation: button 1s linear 0s infinite; */
-
-}
-
-.button1 {
-    background-color: rgba(255, 0, 0, 0.774);
-    border-radius: 10px;
-    border: none;
-    position: absolute;
-    top: 0px;
-    color: blue;
-    z-index: 999;
-    /* width: 100%; */
-    /* height: 100%; */
-}
-
-@keyframes button {
-    0% {
-        background-color: rgb(2, 54, 54);
-    }
-
-    100% {
-        background-color: rgb(18, 209, 101);
-    }
-}
-
-
-
-
 .button {
     display: inline-block;
     padding: .75rem 1.25rem;
@@ -255,11 +215,11 @@ p {
     text-decoration: none;
     margin-top: 10px;
     text-transform: uppercase;
-    /* border: none; */
     transition: all .3s;
     position: relative;
     overflow: hidden;
     z-index: 1;
+    border: none;
 
     &:after {
         content: '';
