@@ -22,9 +22,6 @@ html {
     scroll-behavior: smooth;
 
 }
-/* ::-webkit-scrollbar{
-    display: none;
-} */
 
 * {
     margin: 0px;
@@ -192,16 +189,22 @@ p {
 }
 
 .contact textarea {
-    /* width: 50%; */
+    width: 50%;
     padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
 }
 
 .contact input {
-    /* margin: auto; */
+    font-size: 14px;
     margin-bottom: 5px;
-    /* width: 50%; */
+    padding: 5px 30px 5px 5px;
+    border-radius: 5px;
+    border: none;
 }
-
+.contact input::placeholder{
+    font-size: 12px;
+}
 .social-media h2 {
     margin-bottom: 10px;
 }
