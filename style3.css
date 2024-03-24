@@ -192,6 +192,10 @@ label:hover {
         object-fit: fill;
     }
 
+    h1{
+        text-align: center;
+    }
+
     .card-add-input {
         padding-left: 15px;
         width: auto;
