@@ -25,6 +25,7 @@ body {
 h1{
     padding: 10px;
     color: white;
+    text-align: center;
     border: 3px solid black;
     width: fit-content;
     margin: 10px auto;
