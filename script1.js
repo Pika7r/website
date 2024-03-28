@@ -46,7 +46,7 @@ const submit = () => {
     else if (d > 99999999999 && d <= 999999999999) {
         d = d[0] + d[1] + d[2] + "B"
     }
-    else {
+    else if(d > 999999999999) {
         d = '🫡'
     }
     d = d + " views"
