@@ -1,98 +1,50 @@
-const change1 = () => {
-  let a = document.getElementById("colorinput").value;
-  document.getElementById("box1").style.background = a;
-};
-const change2 = () => {
-  let a = document.getElementById("bcolorinput").value;
-  document.getElementById("box1").style.borderColor = a;
-};
-const change3 = () => {
-  let a = document.getElementById("bradius").value;
-  a = a + "px";
-  document.getElementById("box1").style.borderRadius = a;
-};
-const change4 = () => {
-  let a = document.getElementById("cwidth").value;
-  a = a + "px";
-  document.getElementById("box1").style.width = a;
-};
-const change5 = () => {
-  a = document.getElementById("cheight").value;
-  a = a + "px";
-  document.getElementById("box1").style.height = a;
-};
+function add() {
+    let a = document.getElementById("num1").value
+    let b = document.getElementById("num2").value
+    let c = document.getElementById("num3").value
+    let d = document.getElementById("num4").value
+    let e = document.getElementById("num5").value
+    let f = document.getElementById("num6").value
+    let g = document.getElementById("num7").value
+    let h = document.getElementById("num8").value
+    let i = document.getElementById("num9").value
 
-const reset_values = () => {
-  document.getElementById("colorinput").value = null;
-  document.getElementById("bcolorinput").value = null;
-  document.getElementById("bradius").value = null;
-  document.getElementById("cwidth").value = null;
-  document.getElementById("cheight").value = null;
-  document.getElementById("box1").style.borderColor = null;
-  document.getElementById("box1").style.background = null;
-  document.getElementById("box1").style.borderRadius = 0 + "px";
-  document.getElementById("box1").style.height = 100 + "px";
-  document.getElementById("box1").style.width = 100 + "px";
-};
+    let l=1
+    
 
-const random = () => {
-  let a = Math.floor(Math.random() * 100);
-  let b = Math.floor(Math.random() * 100);
-  let c = Math.floor(Math.random() * 100);
-  function getRandomColor() {
-    var letters = "0123456789ABCDEF";
-    var color = "#";
-    for (var i = 0; i < 6; i++) {
-      color += letters[Math.floor(Math.random() * 16)];
-    }
-    return color;
-  }
-  let d = getRandomColor();
-  document.getElementById("box1").style.backgroundColor = d;
-  document.getElementById("colorinput").value = d;
-  let e = getRandomColor();
-  document.getElementById("box1").style.borderColor = e;
-  document.getElementById("bcolorinput").value = e;
-  document.getElementById("box1").style.borderRadius = a + "px";
-  document.getElementById("box1").style.height = b + "px";
-  document.getElementById("box1").style.width = c + "px";
-  document.getElementById("bradius").value = a;
-  document.getElementById("cwidth").value = c;
-  document.getElementById("cheight").value = b;
-};
+    a = a*parseInt(l)
+    b = b*parseInt(l)
+    c = c*parseInt(l)
+    d = d*parseInt(l)
+    e = e*parseInt(l)
+    f = f*parseInt(l)
+    g = g*parseInt(l)
+    h = h*parseInt(l)
+    i = i*parseInt(l)
 
-function getRandomColor() {
-  var letters = "0123456789ABCDEF";
-  var color = "#";
-  for (var i = 0; i < 6; i++) {
-    color += letters[Math.floor(Math.random() * 16)];
-  }
-  return color;
+    a =parseInt(a) * 2000
+    b =parseInt(b) * 500
+    c =parseInt(c) * 100
+    d =parseInt(d) * 50
+    e =parseInt(e) * 20
+    f =parseInt(f) * 10
+    g =parseInt(g) * 5
+    h =parseInt(h) * 2
+    i =parseInt(i) * 1
+    let j = a + b + c + d + e + f + g + h + i
+    let k = document.getElementById("num10").value = j
+
+    console.log(a + b)
 }
 
-const rand1 = () => {
-  let a = getRandomColor();
-  document.getElementById("box1").style.backgroundColor = a;
-  document.getElementById("colorinput").value = a;
-};
-const rand2 = () => {
-  let a = getRandomColor();
-  document.getElementById("box1").style.borderColor = a;
-  document.getElementById("bcolorinput").value = a;
-};
+let details = {
+    name: "Ravi",
+    Rollno: "1",
+    marks: "100"
+}
 
-const rand3 = () => {
-  let a = Math.floor(Math.random() * 100);
-  document.getElementById("box1").style.borderRadius = a + "px";
-  document.getElementById("bradius").value = a;
-};
-const rand4 = () => {
-  let a = Math.floor(Math.random() * 100);
-  document.getElementById("box1").style.width = a + "px";
-  document.getElementById("cwidth").value = a;
-};
-const rand5 = () => {
-  let a = Math.floor(Math.random() * 100);
-  document.getElementById("box1").style.height = a + "px";
-  document.getElementById("cheight").value = a;
-};
+
+let string = "Ravi1"
+
+const name = "lokmany"
+

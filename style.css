@@ -1,52 +1,74 @@
-.mainpage{
-    padding: 40px;
-    text-align: center;
-}
-.box {
-    border: 1px;
-    border-collapse: collapse;
-    border-spacing: 20px;
-    margin: auto;
-}
-
-.table-heading,
-.table-data {
-    border: 1px solid rgb(255, 0, 0);
-    padding: 3px;
-}
-
-.ok {
-    border: 1px solid black;
-    text-align: center;
-}
-
-.img{
-    height: 150px;
-}
-#table {
-    color: rgba(248, 70, 0, 0.733);
-}
-
-#video {
-    color: rgb(101, 10, 237);
-}
-
-#audio {
-    color: rgb(0, 100, 15);
-}
-
-#image {
-    color: rgb(183, 6, 97);
-}
-
-.box .caption {
-    text-align: center;
-    background-color: brown;
+body {
+    background-color: rgba(0, 0, 0, 0.858);
     color: white;
-}
-.flag{
-    text-decoration: none;
-    color: orange;
     font-weight: bold;
-    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    /* margin: 20; */
+    font-size: 300%;
+    font-family: cursive;
+}
+
+.main{
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#num10{
+    font-weight: bold;
+}
+
+label{
+    font-family: cursive;
+}
+
+.chart {
+    text-align: center;
+
+}
+
+.counter {
+    margin: 0;
+    text-align: center;
+}
+
+.totalcss {
+    background-color: rgb(25, 177, 8);
+    padding: 10px;
+    font-size: 20px;
+    width: 50%;
+    margin: auto;
+    border-radius: 12px;
+}
+
+.enter-button {
+    color: white;
+    background-color: blue;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    /* padding: 10px; */
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.enter-button:active{
+    color: red;
+}
+
+#num10 {
+    /* font-size: 20px; */
+    text-align: center;
 }
